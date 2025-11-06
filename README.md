@@ -3,6 +3,7 @@ Quantitative Stock Analyzer
 This is a command-line Python script for performing quantitative fundamental analysis on a given stock ticker. It fetches financial data from the Alpha Vantage API and runs a suite of automated models to generate a financial health score and an intrinsic valuation.
 
 📜 Description
+
 This script moves beyond simple ratio lookups by implementing several well-known quantitative models. Instead of relying on subjective "assumptions" for valuation, it calculates key inputs (like the discount rate and growth rate) based on historical data and financial theory.
 
 The analysis is performed by the FundamentalAnalyzer class, which:
@@ -18,6 +19,7 @@ Calculates historical growth trends.
 Runs a data-driven valuation (DCF).
 
 ✨ Features
+
 Financial Statement Fetching: Pulls annual Income Statements, Balance Sheets, and Cash Flow Statements.
 
 Key Ratio Analysis: Calculates standard metrics like P/E, P/B, ROE, and Debt-to-Equity.
@@ -31,6 +33,7 @@ CAPM Discount Rate: Calculates the Cost of Equity using the Capital Asset Pricin
 Data-Driven DCF Valuation: Runs a 5-year Discounted Cash Flow (DCF) model where the growth rate and discount rate are derived from the script's own calculations (CAGR and CAPM), not hard-coded guesses.
 
 🚀 Getting Started
+
 1. Prerequisites
 Python 3.x
 
